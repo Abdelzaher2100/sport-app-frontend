@@ -25,37 +25,48 @@ class App:
 
     def __init__(self):
         self.__first_menu = self.init_first_menu()
+        self.id_user = None
         self.__menu = self.__init_shopping_list_menu()
         self.__campilist=None
 
     def init_first_menu(self) -> Menu:
-        return Menu.Builder(MenuDescription('SIGN IN'), auto_select=lambda: print('Welcome!')) \
+        return Menu.Builder(MenuDescription('SPORT ZONE'), auto_select=lambda: print('Welcome please select!')) \
             .with_entry(Entry.create('1', 'Login', is_logged=lambda: self.__login())) \
             .with_entry(Entry.create('2', 'Register', on_selected=lambda: self.__register())) \
-            .with_entry(Entry.create('0', 'Exit', on_selected=lambda: print('Bye!'), is_exit=True)) \
+            .with_entry(Entry.create('0', 'Exit', on_selected=lambda: print('Bye Bye!'), is_exit=True)) \
             .build()
 
     def __init_shopping_list_menu(self) -> Menu:
         return Menu.Builder(MenuDescription('Welcome to our SPORT-CENTER App'), auto_select=lambda: self.__print_items()) \
-            .with_entry(Entry.create('1', 'Add Football Campo', on_selected=lambda: self.__add_football_campo())) \
-            .with_entry(Entry.create('2', 'Add Volleyball Campo', on_selected=lambda: self.__add_volleyball_campo())) \
-            .with_entry(Entry.create('3', 'Add Basketball Campo', on_selected=lambda: self.__add_volleyball_campo())) \
-            .with_entry(Entry.create('4', 'Remove Item', on_selected=lambda: self.__remove_campo())) \
+            .with_entry(Entry.create('1', 'Add Football Field', on_selected=lambda: self.__add_football_campo())) \
+            .with_entry(Entry.create('2', 'Add Volleyball Field', on_selected=lambda: self.__add_volleyball_campo())) \
+            .with_entry(Entry.create('3', 'Add Basketball Field', on_selected=lambda: self.__add_volleyball_campo())) \
+            .with_entry(Entry.create('4', 'Remove Field', on_selected=lambda: self.__remove_campo())) \
             .with_entry(Entry.create('5', 'Change Price', on_selected=lambda: self.__change_price())) \
             .with_entry(Entry.create('6', 'Sort by Price', on_selected=lambda: self.__sort_by_price())) \
-            .with_entry(Entry.create('0', 'Exit', on_selected=lambda: print('Bye!'), is_exit=True)) \
+            .with_entry(Entry.create('0', 'Exit', on_selected=lambda: print('Bye Bye!'), is_exit=True)) \
             .build()
 
     def __login(self) -> bool:
-        username = self.__read("Username", Username)
-        password = self.__read("Password", Password)
-        res = requests.post(url=f'{api_server}auth/login/', data={'username': username, 'password': password})
-        if res.status_code != 200:
-            print('This user does not exist!')
-            return False
-        self.__key = res.json()['key']
+        done=False
+        while not done:
+            username = self.__read("Username ", Username)
+            if username.value == '0':
+                return False
 
+            password = self.__read("Password ", Password)
+            if password.value == '0':
+                return False
+
+            res = requests.post(url=f'{api_server}auth/login/', data={'username': username, 'password': password})
+            if res.status_code != 200:
+                print('This user does not exist!')
+            else:
+                self.__key = res.json()['key']
+                print('Login success')
+                done = True
         return True
+
 
     def __register(self) -> None:
         username = self.__read("Username", Username)
@@ -67,11 +78,13 @@ class App:
                                   'password2': password})
         if res.status_code == 400:
             print('This user already exists!')
+        if res.status_code == 200:
+            print('Registration done!')
 
     def __print_items(self) -> None:
         if self.__campilist.items() == 0 :
             return
-        print_sep = lambda: print('-' * 200)
+        print_sep = lambda: print('-' * 180)
         print_sep()
         fmt = '%-3s %-30s  %-30s  %-30s %-50s'
         print(fmt % ( 'Id', 'Field Number', 'Sport Type', 'PRICE','DESCRIPTION'))
@@ -165,7 +178,7 @@ class App:
 
         req = requests.post(url=f'{api_server}sport-center/add',
                             headers={'Authorization': f'Token {self.__key}'},
-                            data={'author':1,'name': sport_center.name.value, 'city': sport_center.city.value,
+                            data={'author':self.iduser,'name': sport_center.name.value, 'city': sport_center.city.value,
                                   'phone_number': sport_center.phone_number.value})
 
 
@@ -174,13 +187,14 @@ class App:
                            headers={'Authorization': f'Token {self.__key}'})
         if res.status_code != 200:
             raise RuntimeError()
+        self.id_user = 1
         json = res.json()
         if json is None:
             return None
 
         for item in json:
-            id_center= Number(item['id'])
-            name= Name(item['name'])
+            id_center = Number(item['id'])
+            name = Name(item['name'])
             city = City(item['city'])
             phone_number=PhoneNumber(item['phone_number'])
 
@@ -216,11 +230,11 @@ class App:
 
 
             if sport_type == 'Football':
-                self.__campilist.add_football_campo(Football(field_id,field_number, price, description))
+                self.__campilist.add_football_campo(Football(field_id, field_number, price, description))
             elif sport_type == 'Volleyball':
-                self.__campilist.add_volleyball_campo(Volleyball(field_id,field_number, price, description))
+                self.__campilist.add_volleyball_campo(Volleyball(field_id, field_number, price, description))
             elif sport_type == 'Basketball':
-                self.__campilist.add_basketball_campo(Basketball(field_id,field_number, price, description))
+                self.__campilist.add_basketball_campo(Basketball(field_id, field_number, price, description))
 
             else:
                 raise ValueError('Unknown Sport Type ')

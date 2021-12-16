@@ -76,7 +76,7 @@ class Menu:
 
     def __print(self) -> None:
         length = len(str(self.description))
-        fmt = '***{}{}{}***'
+        fmt = '>>>>>>>>>>>>{}{}{}<<<<<<<<<<<<'
         print(fmt.format('*', '*' * length, '*'))
         print(fmt.format(' ', self.description.value, ' '))
         print(fmt.format('*', '*' * length, '*'))

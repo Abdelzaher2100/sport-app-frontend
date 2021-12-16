@@ -86,7 +86,7 @@ class Username:
 
     def __post_init__(self):
         validate_dataclass(self)
-        validate('value', self.value, min_len=8, max_len=25, custom=pattern(r'[A-Za-z0-9]+'))
+        validate('value', self.value, min_len=1, max_len=25, custom=pattern(r'[A-Za-z0-9]{8,25}|0'))
 
     def __str__(self):
         return str(self.value)
@@ -113,7 +113,7 @@ class Password:
 
     def __post_init__(self):
         validate_dataclass(self)
-        validate('value', self.value, min_len=6, max_len=25)
+        validate('value', self.value, min_len=1, max_len=25,custom=pattern(r'[A-Za-z0-9]{8,25}|0'))
 
     def __str__(self):
         return str(self.value)

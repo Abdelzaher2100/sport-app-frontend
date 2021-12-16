@@ -7,6 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,7 +35,7 @@
       <recent name="C:\Users\Momo hassan\PycharmProjects\SSD_Frontend-main" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_app.test_app_shopping_list_load">
+  <component name="RunManager" selected="Python tests.pytest for test_app.test_app_sign_in_nonexistent_user">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SSD_Frontend-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,12 +58,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_app.test_app_shopping_list_load" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_app.test_app_registration_existent_user" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SSD_Frontend-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/shoppinglist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/sport_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -63,7 +71,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_app.test_app_shopping_list_load&quot;" />
+      <option name="_new_target" value="&quot;test_app.test_app_registration_existent_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -72,7 +80,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/shoppinglist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/sport_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -84,12 +92,12 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_app.test_app_sign_in_resists_wrong_password" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_domain.test_password_format" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SSD_Frontend-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/shoppinglist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/sport_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -97,16 +105,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_app.test_app_sign_in_resists_wrong_password&quot;" />
+      <option name="_new_target" value="&quot;test_domain.test_password_format&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_app.test_app_sign_in_resists_wrong_username" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_domain.test_price_cannot_be_negative" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SSD_Frontend-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/shoppinglist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/sport_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -114,16 +122,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_app.test_app_sign_in_resists_wrong_username&quot;" />
+      <option name="_new_target" value="&quot;test_domain.test_price_cannot_be_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_app.test_app_sport_center" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_domain.test_username_format" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="SSD_Frontend-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/shoppinglist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/sport_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -131,25 +139,25 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_app.test_app_sport_center&quot;" />
+      <option name="_new_target" value="&quot;test_domain.test_username_format&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.app" />
-      <item itemvalue="Python tests.pytest for test_app.test_app_sign_in_resists_wrong_username" />
+      <item itemvalue="Python tests.pytest for test_domain.test_price_cannot_be_negative" />
+      <item itemvalue="Python tests.pytest for test_domain.test_username_format" />
+      <item itemvalue="Python tests.pytest for test_domain.test_password_format" />
       <item itemvalue="Python tests.pytest for test_app.test_app_sign_in_nonexistent_user" />
-      <item itemvalue="Python tests.pytest for test_app.test_app_sport_center" />
-      <item itemvalue="Python tests.pytest for test_app.test_app_sign_in_resists_wrong_password" />
-      <item itemvalue="Python tests.pytest for test_app.test_app_shopping_list_load" />
+      <item itemvalue="Python tests.pytest for test_app.test_app_registration_existent_user" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_app.test_app_shopping_list_load" />
-        <item itemvalue="Python tests.pytest for test_app.test_app_sport_center" />
-        <item itemvalue="Python tests.pytest for test_app.test_app_sign_in_resists_wrong_username" />
-        <item itemvalue="Python tests.pytest for test_app.test_app_sign_in_resists_wrong_password" />
         <item itemvalue="Python tests.pytest for test_app.test_app_sign_in_nonexistent_user" />
+        <item itemvalue="Python tests.pytest for test_app.test_app_registration_existent_user" />
+        <item itemvalue="Python tests.pytest for test_domain.test_password_format" />
+        <item itemvalue="Python tests.pytest for test_domain.test_username_format" />
+        <item itemvalue="Python tests.pytest for test_domain.test_price_cannot_be_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +188,7 @@
       <workItem from="1639563340362" duration="72000" />
       <workItem from="1639566448843" duration="35224000" />
       <workItem from="1639611501174" duration="191000" />
-      <workItem from="1639611780472" duration="2911000" />
+      <workItem from="1639611780472" duration="15416000" />
     </task>
     <servers />
   </component>
@@ -191,46 +199,89 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/shoppinglist/test_app.py</url>
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
           <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/shoppinglist/test_app.py</url>
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/shoppinglist/test_app.py</url>
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
           <line>51</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/shoppinglist/test_app.py</url>
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_menu.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
           <line>85</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_domain.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/sport_center/test_app.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_resists_wrong_username.coverage" NAME="pytest for test_app.test_app_sign_in_resists_wrong_username Coverage Results" MODIFIED="1639613635540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_description_must_be_non_empty_string.coverage" NAME="pytest for test_menu.test_menu_description_must_be_non_empty_string Coverage Results" MODIFIED="1639488180038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_entry_on_selected_print_something.coverage" NAME="pytest for test_menu.test_entry_on_selected_print_something Coverage Results" MODIFIED="1639647756884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_description_must_be_non_empty_string.coverage" NAME="pytest for test_menu.test_menu_description_must_be_non_empty_string Coverage Results" MODIFIED="1639647727579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_add_smartphone_with_duplicates.coverage" NAME="pytest for test_app.test_app_add_smartphone_with_duplicates Coverage Results" MODIFIED="1639648355716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_key_cannot_be_empty.coverage" NAME="pytest for test_menu.test_key_cannot_be_empty Coverage Results" MODIFIED="1639647747152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_description_must_be_string.coverage" NAME="pytest for test_menu.test_menu_description_must_be_string Coverage Results" MODIFIED="1639488172822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_with_correct_parameters.coverage" NAME="pytest for test_app.test_app_sign_in_with_correct_parameters Coverage Results" MODIFIED="1639658365462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_name_format.coverage" NAME="pytest for test_domain.test_name_format Coverage Results" MODIFIED="1639652950578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_username_format.coverage" NAME="pytest for test_domain.test_username_format Coverage Results" MODIFIED="1639658832639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_resists_wrong_password.coverage" NAME="pytest for test_app.test_app_sign_in_resists_wrong_password Coverage Results" MODIFIED="1639648777656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_password_format.coverage" NAME="pytest for test_domain.test_password_format Coverage Results" MODIFIED="1639658844543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_item_list.coverage" NAME="pytest for test_app.test_app_item_list Coverage Results" MODIFIED="1639658196060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_nonexistent_user.coverage" NAME="pytest for test_app.test_app_sign_in_nonexistent_user Coverage Results" MODIFIED="1639659721087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in.coverage" NAME="pytest for test_app.test_app_sign_in Coverage Results" MODIFIED="1639648823306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_description_format.coverage" NAME="pytest for test_domain.test_description_format Coverage Results" MODIFIED="1639611875980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_resists_wrong_username.coverage" NAME="pytest for test_app.test_app_sign_in_resists_wrong_username Coverage Results" MODIFIED="1639658641085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
     <SUITE FILE_PATH="coverage/SSD_Frontend_main$__main__.coverage" NAME="app Coverage Results" MODIFIED="1639433279277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shopping_list" />
     <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_shopping_list_load.coverage" NAME="pytest for test_app.test_app_shopping_list_load Coverage Results" MODIFIED="1639613987818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_key_cannot_be_empty.coverage" NAME="pytest for test_menu.test_key_cannot_be_empty Coverage Results" MODIFIED="1639489218667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_description_must_be_string.coverage" NAME="pytest for test_menu.test_menu_description_must_be_string Coverage Results" MODIFIED="1639488172822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_name_format.coverage" NAME="pytest for test_domain.test_name_format Coverage Results" MODIFIED="1639611863887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_does_not_contain_duplicates.coverage" NAME="pytest for test_menu.test_menu_does_not_contain_duplicates Coverage Results" MODIFIED="1639647771771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
     <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sport_center.coverage" NAME="pytest for test_app.test_app_sport_center Coverage Results" MODIFIED="1639613812957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_username_format.coverage" NAME="pytest for test_domain.test_username_format Coverage Results" MODIFIED="1639488235197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$app.coverage" NAME="app Coverage Results" MODIFIED="1639613266764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sport_center" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_registration_existent_user.coverage" NAME="pytest for test_app.test_app_registration_existent_user Coverage Results" MODIFIED="1639613488620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_resists_wrong_password.coverage" NAME="pytest for test_app.test_app_sign_in_resists_wrong_password Coverage Results" MODIFIED="1639613529963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_description_must_not_exceed_1000_chars.coverage" NAME="pytest for test_menu.test_menu_description_must_not_exceed_1000_chars Coverage Results" MODIFIED="1639647735074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$app.coverage" NAME="app Coverage Results" MODIFIED="1639658017516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_registration_existent_user.coverage" NAME="pytest for test_app.test_app_registration_existent_user Coverage Results" MODIFIED="1639659713192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
     <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_regex_test_regex_for_int.coverage" NAME="pytest for test_regex.test_regex_for_int Coverage Results" MODIFIED="1639489201311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/validation" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_regex_test_regex_for_single_word.coverage" NAME="pytest for test_regex.test_regex_for_single_word Coverage Results" MODIFIED="1639489197380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/validation" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in_nonexistent_user.coverage" NAME="pytest for test_app.test_app_sign_in_nonexistent_user Coverage Results" MODIFIED="1639613498152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_dataclasses_test_validate_dataclass.coverage" NAME="pytest for test_dataclasses.test_validate_dataclass Coverage Results" MODIFIED="1639648141210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/validation" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_registration_user.coverage" NAME="pytest for test_app.test_app_registration_user Coverage Results" MODIFIED="1639657253396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_regex_test_regex_for_single_word.coverage" NAME="pytest for test_regex.test_regex_for_single_word Coverage Results" MODIFIED="1639648160390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/validation" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_remove_item.coverage" NAME="pytest for test_app.test_app_remove_item Coverage Results" MODIFIED="1639657304955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
     <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_menu_test_menu_description_must_not_contain_special_chars.coverage" NAME="pytest for test_menu.test_menu_description_must_not_contain_special_chars Coverage Results" MODIFIED="1639489212064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_sign_in.coverage" NAME="pytest for test_app.test_app_sign_in Coverage Results" MODIFIED="1639612359208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
-    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_description_format.coverage" NAME="pytest for test_domain.test_description_format Coverage Results" MODIFIED="1639611875980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_shopping_list.coverage" NAME="pytest for test_app.test_app_shopping_list Coverage Results" MODIFIED="1639651633729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/shoppinglist" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_app_test_app_registration_user_already_exist.coverage" NAME="pytest for test_app.test_app_registration_user_already_exist Coverage Results" MODIFIED="1639657375790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
+    <SUITE FILE_PATH="coverage/SSD_Frontend_main$pytest_for_test_domain_test_price_cannot_be_negative.coverage" NAME="pytest for test_domain.test_price_cannot_be_negative Coverage Results" MODIFIED="1639658769626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/sport_center" />
   </component>
 </project>
